@@ -401,7 +401,7 @@
             <text macro="editor"/>
             <text variable="publisher-place"/>
             <text variable="publisher"/>
-            <text variable="page" prefix="pÃƒÂ¡g. "/>
+            <text variable="page" prefix="págs. "/>
           </group>
         </else-if>
         <else-if type="article-journal article-magazine article-newspaper" match="any">
