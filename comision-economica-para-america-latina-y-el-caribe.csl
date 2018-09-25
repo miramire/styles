@@ -132,11 +132,13 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="never"/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-        <text variable="title"/>
+    <name name-as-sort-order="all" 
+          and="symbol" 
+          sort-separator=", " 
+          initialize-with=". "
+          delimiter=", " 
+          delimiter-precedes-last="always"/>
+    <label form="short" prefix=" (" suffix=".)" text-transform="capitalize"/>
       </substitute>
     </names>
   </macro>
